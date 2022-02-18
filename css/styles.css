@@ -26,9 +26,24 @@ body {
     font-size: 4rem;
     }
 
-    /*MY CODE*/
-
+    /*MY CODE*/ 
     .emojis{
         display: grid;
-        grid-template-columns: (2,417px);
+        grid-template-columns: repeat(2,417px);
+       
+        gap: 15px;
+    }
+    
+    .emojis p{
+    flex-grow: 1;
+    }
+    
+    .emoji{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon{
+        order: -1;
+        align-self: center;
     }
